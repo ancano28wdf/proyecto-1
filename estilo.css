@@ -1,0 +1,132 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background: rgb(68, 68, 223);
+    height: 200px;
+    width: auto;
+    border: 1px solid black;
+}
+
+.opciones {
+    display: flexbox;
+    flex-direction: row-reverse;  
+}
+.opcion {
+    border-color: black;
+    width: 100px;
+   
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    text-align: center;
+    margin: auto solid rgb(62, 62, 223) ;
+    height: 300px;
+    width: auto;
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+    margin: auto solid rgb(62, 62, 223);
+    height: 300px;
+    width: auto;
+    border: 1px solid black;
+}
+
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 200px;
+    width: auto;
+    background-color: antiquewhite;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 200px;
+}
+.servicio {
+    height: 100px;
+    background: rgb(115, 144, 241);
+
+}
+
+.experiencias {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.experiencias-contenido {
+    background: rgb(58, 103, 252);
+    border: 1px solid rgb(8, 43, 160);
+    height: 400px;
+}
+
+.experiencias-contenido[h2] {
+    border-radius: 100px;
+    border-color: 1px;
+    background-color: black;
+    color: antiquewhite;
+
+}
+footer {
+    background: rgb(180, 180, 207);
+    height: 500px;
+    width: auto;
+}
+
+.menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    height: 200px;  
+}
+
+.menu {
+    height: 150px;
+    background: rgb(180, 180, 207);
+    color: rgb(133, 131, 131); 
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;  
+}
+
+.contacto {
+    height: 150px;
+    background: rgb(180, 180, 207);
+    color: rgb(133, 131, 131);  
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 200px; 
+}
+
+.red-social {
+    height: 150px;
+    background: rgb(180, 180, 207);
+    padding-top: 25px;
+    padding-bottom: 50px;  
+}
